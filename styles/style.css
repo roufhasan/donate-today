@@ -1,14 +1,6 @@
 /* ====== Fonts ====== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Lobster&family=Manrope&family=Poppins:wght@400;700&display=swap");
 
-/*     font-family: 'Inter', sans-serif;
-
-    font-family: 'Lobster', cursive;
-
-    font-family: 'Manrope', sans-serif;
-
-    font-family: 'Poppins', sans-serif; */
-
 * {
   padding: 0;
   margin: 0;
@@ -34,13 +26,14 @@ section {
 
 /* ====== Header Styles ====== */
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(
       360deg,
       #121212 0%,
       rgba(18, 18, 18, 0) 100%
     ),
     url("../images/banner-bg.png");
+  background-blend-mode: multiply;
 }
 
 .banner {
@@ -101,6 +94,7 @@ section {
   border-radius: 5px;
   transition: all 0.3s ease-in;
   font-family: "Inter", sans-serif;
+  border: 2px solid transparent;
 }
 
 .amount:hover {
